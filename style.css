@@ -116,17 +116,17 @@ body {
 	background-size: cover;
 }
 
-.system-req-title {
-	position: relative;
-	top: 15%;
-}
-
 .system-req-cont {
-	position: relative;
-	top: 20%;
+	display: flex;
+	flex-direction: column;
+	padding-top: 8%;
 }
 
-.system-req-h4 {
+.system-req-cont-h4-1,
+.system-req-cont-h4-2,
+.system-req-cont-h4-3,
+.system-req-cont-h4-4,
+.system-req-cont-h4-5 {
 	color: orangered;
 }
 
