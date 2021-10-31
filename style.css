@@ -1,0 +1,160 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	color: whitesmoke;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+
+body {
+	font-size: 18px;
+	scroll-behavior: smooth;
+}
+
+.homepage {
+	background-image: url(./assets/main-bg.jpg);
+	width: 100;
+	height: 100vh;
+	background-size: cover;
+}
+
+.homepage-navbar {
+	/* opacity: 90%; */
+	display: block;
+}
+
+.signup-btn {
+	margin: 0.5rem;
+	margin-right: 0;
+}
+
+.homepage-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	top: 40%;
+}
+
+.hp-cont-h1 {
+	text-align: center;
+}
+
+.hp-cont-h6 {
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+	text-align: center;
+}
+
+.hp-cont-btn-a {
+	margin-top: 1rem;
+	margin-bottom: 20vh;
+}
+
+.hp-cont-btm-a {
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	width: 120px;
+}
+
+.hp-cont-btm-img {
+	width: auto;
+	height: 30px;
+}
+
+@media (max-width: 320px) {
+	.hp-cont-btn-a {
+		margin-bottom: 15vh;
+	}
+}
+
+.games {
+	background-image: url(./assets/the-games-bg.jpg);
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+}
+
+.games-container {
+	position: relative;
+	top: 25%;
+}
+
+.features {
+	background-image: url(./assets/features.jpg);
+	width: 100;
+	height: 100vh;
+	background-size: cover;
+}
+
+.features-cont {
+	display: flex;
+	align-items: center;
+	padding-top: 8rem;
+	padding-left: 20%;
+}
+
+.features-col-ul {
+	list-style: circle;
+}
+
+.features-col-ul-li1,
+.features-col-ul-li2,
+.features-col-ul-li3,
+.features-col-ul-h4-1,
+.features-col-ul-h4-2,
+.features-col-ul-h4-3 {
+	color: orangered;
+}
+
+.system-req {
+	background-image: url(./assets/requirements.png);
+	width: 100;
+	height: 100vh;
+	background-size: cover;
+}
+
+.system-req-title {
+	position: relative;
+	top: 15%;
+}
+
+.system-req-cont {
+	position: relative;
+	top: 20%;
+}
+
+.system-req-h4 {
+	color: orangered;
+}
+
+.topscores {
+	background-image: url(./assets/the-games-bg.jpg);
+	width: 100;
+	height: 100vh;
+	background-size: cover;
+}
+
+.topscores-cont {
+	position: relative;
+	top: 15%;
+}
+
+.topscores-card-img {
+	height: 50%;
+	width: auto;
+}
+
+.card-title {
+	color: orangered;
+}
+
+.card-text {
+	color: white;
+}
+
+.contact {
+	background-color: rgb(31, 29, 29);
+}
