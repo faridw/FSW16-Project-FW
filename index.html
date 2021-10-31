@@ -41,14 +41,22 @@
 										>Home</a
 									>
 								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#work">Work</a>
-								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									  Work
+									</a>
+									<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+									  <li><a class="dropdown-item" href="#games">The Games</a></li>
+									  <li><a class="dropdown-item" href="#features">Features</a></li>
+									  <li><a class="dropdown-item" href="#system-req">System Requirements</a></li>
+									  <li><a class="dropdown-item" href="#review">User Review</a></li>
+									</ul>
+								  </li>
 								<li class="nav-item">
 									<a class="nav-link" href="#contact">Contact</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="#">About Me</a>
+									<a class="nav-link" href="https://www.instagram.com/faridwjdi/" target="_blank">About Me</a>
 								</li>
 							</ul>
 							<form class="d-flex">
@@ -91,7 +99,7 @@
 			</div>
 		</section>
 
-		<section class="games" id="work">
+		<section class="games" id="games">
 			<div class="games-container container overflow-hidden">
 				<div class="row g-0">
 					<div class="col-6 col-md-4">
@@ -180,7 +188,7 @@
 			</div>
 		</section>
 
-		<section class="features">
+		<section class="features" id="features">
 			<div class="features-cont d-flex flex-column">
 				<div class="features-col1 p-2">
 					<h6>What's so special?</h6>
@@ -206,7 +214,7 @@
 			</div>
 		</section>
 
-		<section class="system-req">
+		<section class="system-req" id="system-req">
 			<div class="system-req-cont container">
 				<h1>System Requriements</h1>
 				<h6>Can my computer run this game?</h6>
@@ -243,30 +251,26 @@
 			</div>
 		</section>
 
-		<section class="topscores">
-			<div class="container">
+		<section class="review" id="review">
+			<div class="review-cont container">
 				<div class="row">
-					<div class="col-12">
-						<h1>coba dulu jek</h1>
-						<p>ngakak</p>
+					<div class="review-cont-title col-12">
+						<h1>User Review</h1>
+						<h6>Reviews from various games provided on this platform</h6>
 					</div>
-					<div class="col-4">
+					<div class="review-card1 col-lg-4 col-md-6">
 						<div
 							class="card mb-3 bg-transparent border"
 							style="max-width: 540px"
 						>
 							<div class="row g-0">
 								<div class="col-md-4">
-									<img
-										src="./assets/blank-profile-picture-g6877c3d44_640.png"
-										class="img-fluid rounded-circle"
-										alt="profile picture"
-									/>
+									<i class="far fa-grin-tongue fa-7x"></i>
 								</div>
 								<div class="col-md-8">
 									<div class="card-body">
-										<h5 class="card-title">Ini Nama</h5>
-										<p class="card-text">Ini testimonialnya</p>
+										<h5 class="card-title">Jada Griffin</h5>
+										<p class="card-text">"The next big thing in the world of survival games."</p>
 										<p class="card-text">
 											<small class="text-muted">Last updated 3 mins ago</small>
 										</p>
@@ -275,48 +279,40 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-4">
+					<div class="review-card2 col-lg-4 col-md-6">
 						<div
 							class="card mb-3 bg-transparent border"
 							style="max-width: 540px"
 						>
 							<div class="row g-0">
-								<div class="col-md-4">
-									<img
-										src="./assets/blank-profile-picture-g6877c3d44_640.png"
-										class="img-fluid rounded-circle"
-										alt="profile picture"
-									/>
+								<div class="review-card2-img col-md-4">
+									<i class="far fa-grin-stars fa-7x"></i>
 								</div>
-								<div class="col-md-8">
+								<div class="review-card2-body col-md-8">
 									<div class="card-body">
-										<h5 class="card-title">Ini Nama</h5>
-										<p class="card-text">Ini testimonialnya</p>
+										<h5 class="card-title">Destructoid</h5>
+										<p class="card-text">"A modern multiplayer masterpiece!"</p>
 										<p class="card-text">
-											<small class="text-muted">Last updated 3 mins ago</small>
+											<small class="text-muted">Last updated 30 secs ago</small>
 										</p>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col-4">
+					<div class="review-card3 col-lg-4 col-md-6">
 						<div
 							class="card mb-3 bg-transparent border"
 							style="max-width: 540px"
 						>
 							<div class="row g-0">
 								<div class="col-md-4">
-									<img
-										src="./assets/blank-profile-picture-g6877c3d44_640.png"
-										class="img-fluid rounded-circle"
-										alt="profile picture"
-									/>
+									<i class="far fa-kiss-wink-heart fa-7x"></i>
 								</div>
 								<div class="col-md-8">
 									<div class="card-body">
-										<h5 class="card-title">Ini Nama</h5>
-										<p class="card-text">Ini testimonialnya</p>
+										<h5 class="card-title">Metacritic</h5>
+										<p class="card-text">"One of my gaming highlights of the year."</p>
 										<p class="card-text">
 											<small class="text-muted"
 												>Last updated 10 hours ago</small
@@ -333,16 +329,15 @@
 
 		<section class="contact" id="contact">
 			<div class="container" data-aos="fade-up">
-				<div class="section-title">
-					<h2>Contact</h2>
-					<p>Contact Us</p>
+				<div class="contact-title">
+					<h1>Contact</h1>
 				</div>
 			</div>
 
 			<div data-aos="fade-up">
 				<iframe
 					style="border: 0; width: 100%; height: 350px"
-					src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3326.0381365440626!2d106.83203639628432!3d-6.192135405236995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f43bab95e3b5%3A0xcf196d2ea16534de!2sBadan%20Restorasi%20Gambut%20Republik%20Indonesia!5e0!3m2!1sid!2sid!4v1635694166941!5m2!1sid!2sid"
 					frameborder="0"
 					allowfullscreen
 				></iframe>
@@ -353,30 +348,18 @@
 					<div class="col-lg-4">
 						<div class="info">
 							<div class="address">
-								<i class="bi bi-geo-alt"></i>
 								<h4>Location:</h4>
-								<p>A108 Adam Street, New York, NY 535022</p>
-							</div>
-
-							<div class="open-hours">
-								<i class="bi bi-clock"></i>
-								<h4>Open Hours:</h4>
-								<p>
-									Monday-Saturday:<br />
-									11:00 AM - 2300 PM
-								</p>
+								<p>Jl. Teuku Umar No.17, RT.1/RW.1, Gondangdia, Kec. Menteng, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10350</p>
 							</div>
 
 							<div class="email">
-								<i class="bi bi-envelope"></i>
 								<h4>Email:</h4>
 								<p>info@example.com</p>
 							</div>
 
 							<div class="phone">
-								<i class="bi bi-phone"></i>
 								<h4>Call:</h4>
-								<p>+1 5589 55488 55s</p>
+								<p>+62 021 31901268</p>
 							</div>
 						</div>
 					</div>
@@ -429,7 +412,7 @@
 									required
 								></textarea>
 							</div>
-							<div class="text-center">
+							<div class="contact-btn text-center">
 								<button class="btn btn-warning" type="submit">
 									Send Message
 								</button>
@@ -445,5 +428,6 @@
 			integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
 			crossorigin="anonymous"
 		></script>
+		<script src="https://kit.fontawesome.com/fe6f680323.js" crossorigin="anonymous"></script>
 	</body>
 </html>

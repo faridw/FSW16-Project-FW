@@ -130,21 +130,39 @@ body {
 	color: orangered;
 }
 
-.topscores {
+@media (max-width: 315px) {
+	.system-req-cont {
+		font-size: smaller;
+	}
+}
+
+.review {
 	background-image: url(./assets/the-games-bg.jpg);
 	width: 100;
 	height: 100vh;
 	background-size: cover;
 }
 
-.topscores-cont {
+.review-cont {
+	display: flex;
 	position: relative;
-	top: 15%;
+	padding-top: 10%;
 }
 
-.topscores-card-img {
-	height: 50%;
-	width: auto;
+.review-cont-title {
+	text-align: center;
+	padding-bottom: 5%;
+}
+
+@media (max-width: 767px) {
+	.review-card1, .review-card3 {
+		display: none !important;
+	}
+	.review-card2, .review-card2-img, .review-card2-body {
+		display: flex;
+		justify-content: center;
+		text-align: center;
+	}
 }
 
 .card-title {
@@ -156,5 +174,14 @@ body {
 }
 
 .contact {
-	background-color: rgb(31, 29, 29);
+	background-color: rgb(26, 25, 25);
+}
+
+.contact-title {
+	padding: 2%;
+	padding-left: 0;
+}
+
+.contact-btn {
+	margin: 2%
 }
